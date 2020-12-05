@@ -35,10 +35,15 @@ function App() {
                 <Route path="/checkout">
                     <Header/>
                     <Checkout/>
-                  </Route>
-                  <Route path="/login">
+                </Route>
+                <Route path="/login">
                     <Login/>
-                  </Route>
+                </Route>
+                <Route path="/payment">
+                    <Header/>
+                    <h1>i am a payment page</h1>
+                </Route>
+                
                   <Route path="/">
                     <Header/>
                     <Home/>
